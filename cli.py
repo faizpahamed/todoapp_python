@@ -1,10 +1,5 @@
-import time
-
 from functions import add_to_todo_list,write_to_todolsit,get_todo_list
 
-
-now = time.strftime("%b %d, %Y %H:%M:%S")
-print(now)
 while True:
     user_input = input("Type add,show, edit or exit:")
     user_input = user_input.strip()
